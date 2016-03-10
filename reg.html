@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang='ch'>
+
+<head>
+	<meta charset="UTF-8">
+	<title id="title">兔子運動會報名系統</title>
+</head>
+
+
+
+<body>
+<h1>兔子運動會報名系統</h1>
+<form action="register.html" method="post">       
+<h2 id="signup">兔子報名表單</h2>        
+<img src="register_rabbit.jpg" alt="rabbit" width="300">
+<table>
+           
+            <tr><td>姓名(必填)<input type="text" name="name" required autocomplete="off"  maxlength="10" /></td></tr>
+            <tr><td>學院(必填)<select required name="department">
+            <option value="">請選擇</option>
+            <option value="communication">傳播學院</option>
+            <option value="commerce">商學院</option>
+            <option value="science">理學院</option>
+            <option value="liberalArt">文學院</option>
+            <option value="socialScience">社會科學學院</option>
+            <option value="law">法學院</option>
+            <option value="lanquage">外國語學院</option>
+            <option value="internationalAffair">國際事務學院</option>
+            <option value="education">教育學院</option>
+            </select></td></tr>
+            <tr><td>手機(必填)<input type="text"  name="phone" required pattern= "[0-9]{1,10}" /></td></tr>
+            <tr><td>電郵(必填)<input type="email" name="email" required autocomplete="off"/></td>
+            </tr>
+            <tr><td>生日(非必填)<input type="date" name="birthday"/></td></tr></table>
+            <button type="submit">送出</button>
+</form>
+</body>
+
+       
+
+
+
+
+
+
+
+
+
+
+</html>
